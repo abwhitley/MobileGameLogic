@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E92487051DCE4DA60070A4F3 /* MobileRolePlayingAppLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92486FB1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic.framework */; };
+		E924870A1DCE4DA60070A4F3 /* MobileRolePlayingAppLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92487091DCE4DA60070A4F3 /* MobileRolePlayingAppLogicTests.swift */; };
+		E924870C1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = E92486FE1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E92487161DCE4DD00070A4F3 /* PhysicalCharacterCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92487151DCE4DD00070A4F3 /* PhysicalCharacterCreation.swift */; };
+		E92487181DCE4FD40070A4F3 /* ClassForChararcterCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92487171DCE4FD40070A4F3 /* ClassForChararcterCreation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E92487061DCE4DA60070A4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E92486F21DCE4DA60070A4F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E92486FA1DCE4DA60070A4F3;
+			remoteInfo = MobileRolePlayingAppLogic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E92486FB1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobileRolePlayingAppLogic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92486FE1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileRolePlayingAppLogic.h; sourceTree = "<group>"; };
+		E92486FF1DCE4DA60070A4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92487041DCE4DA60070A4F3 /* MobileRolePlayingAppLogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileRolePlayingAppLogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92487091DCE4DA60070A4F3 /* MobileRolePlayingAppLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileRolePlayingAppLogicTests.swift; sourceTree = "<group>"; };
+		E924870B1DCE4DA60070A4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92487151DCE4DD00070A4F3 /* PhysicalCharacterCreation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicalCharacterCreation.swift; sourceTree = "<group>"; };
+		E92487171DCE4FD40070A4F3 /* ClassForChararcterCreation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassForChararcterCreation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E92486F71DCE4DA60070A4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92487011DCE4DA60070A4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92487051DCE4DA60070A4F3 /* MobileRolePlayingAppLogic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E92486F11DCE4DA60070A4F3 = {
+			isa = PBXGroup;
+			children = (
+				E92486FD1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic */,
+				E92487081DCE4DA60070A4F3 /* MobileRolePlayingAppLogicTests */,
+				E92486FC1DCE4DA60070A4F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E92486FC1DCE4DA60070A4F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E92486FB1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic.framework */,
+				E92487041DCE4DA60070A4F3 /* MobileRolePlayingAppLogicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E92486FD1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic */ = {
+			isa = PBXGroup;
+			children = (
+				E92486FE1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic.h */,
+				E92487151DCE4DD00070A4F3 /* PhysicalCharacterCreation.swift */,
+				E92487171DCE4FD40070A4F3 /* ClassForChararcterCreation.swift */,
+				E92486FF1DCE4DA60070A4F3 /* Info.plist */,
+			);
+			path = MobileRolePlayingAppLogic;
+			sourceTree = "<group>";
+		};
+		E92487081DCE4DA60070A4F3 /* MobileRolePlayingAppLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				E92487091DCE4DA60070A4F3 /* MobileRolePlayingAppLogicTests.swift */,
+				E924870B1DCE4DA60070A4F3 /* Info.plist */,
+			);
+			path = MobileRolePlayingAppLogicTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E92486F81DCE4DA60070A4F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E924870C1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E92486FA1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E924870F1DCE4DA60070A4F3 /* Build configuration list for PBXNativeTarget "MobileRolePlayingAppLogic" */;
+			buildPhases = (
+				E92486F61DCE4DA60070A4F3 /* Sources */,
+				E92486F71DCE4DA60070A4F3 /* Frameworks */,
+				E92486F81DCE4DA60070A4F3 /* Headers */,
+				E92486F91DCE4DA60070A4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileRolePlayingAppLogic;
+			productName = MobileRolePlayingAppLogic;
+			productReference = E92486FB1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E92487031DCE4DA60070A4F3 /* MobileRolePlayingAppLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92487121DCE4DA60070A4F3 /* Build configuration list for PBXNativeTarget "MobileRolePlayingAppLogicTests" */;
+			buildPhases = (
+				E92487001DCE4DA60070A4F3 /* Sources */,
+				E92487011DCE4DA60070A4F3 /* Frameworks */,
+				E92487021DCE4DA60070A4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E92487071DCE4DA60070A4F3 /* PBXTargetDependency */,
+			);
+			name = MobileRolePlayingAppLogicTests;
+			productName = MobileRolePlayingAppLogicTests;
+			productReference = E92487041DCE4DA60070A4F3 /* MobileRolePlayingAppLogicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E92486F21DCE4DA60070A4F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AustinWhitleyWork;
+				TargetAttributes = {
+					E92486FA1DCE4DA60070A4F3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GX7FEG5PZB;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					E92487031DCE4DA60070A4F3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GX7FEG5PZB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E92486F51DCE4DA60070A4F3 /* Build configuration list for PBXProject "MobileRolePlayingAppLogic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E92486F11DCE4DA60070A4F3;
+			productRefGroup = E92486FC1DCE4DA60070A4F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E92486FA1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic */,
+				E92487031DCE4DA60070A4F3 /* MobileRolePlayingAppLogicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E92486F91DCE4DA60070A4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92487021DCE4DA60070A4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E92486F61DCE4DA60070A4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92487181DCE4FD40070A4F3 /* ClassForChararcterCreation.swift in Sources */,
+				E92487161DCE4DD00070A4F3 /* PhysicalCharacterCreation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92487001DCE4DA60070A4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E924870A1DCE4DA60070A4F3 /* MobileRolePlayingAppLogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E92487071DCE4DA60070A4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E92486FA1DCE4DA60070A4F3 /* MobileRolePlayingAppLogic */;
+			targetProxy = E92487061DCE4DA60070A4F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E924870D1DCE4DA60070A4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E924870E1DCE4DA60070A4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E92487101DCE4DA60070A4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GX7FEG5PZB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MobileRolePlayingAppLogic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AustinWhitleyWork.MobileRolePlayingAppLogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E92487111DCE4DA60070A4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GX7FEG5PZB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MobileRolePlayingAppLogic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AustinWhitleyWork.MobileRolePlayingAppLogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E92487131DCE4DA60070A4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GX7FEG5PZB;
+				INFOPLIST_FILE = MobileRolePlayingAppLogicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AustinWhitleyWork.MobileRolePlayingAppLogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E92487141DCE4DA60070A4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GX7FEG5PZB;
+				INFOPLIST_FILE = MobileRolePlayingAppLogicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AustinWhitleyWork.MobileRolePlayingAppLogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E92486F51DCE4DA60070A4F3 /* Build configuration list for PBXProject "MobileRolePlayingAppLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E924870D1DCE4DA60070A4F3 /* Debug */,
+				E924870E1DCE4DA60070A4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E924870F1DCE4DA60070A4F3 /* Build configuration list for PBXNativeTarget "MobileRolePlayingAppLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92487101DCE4DA60070A4F3 /* Debug */,
+				E92487111DCE4DA60070A4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E92487121DCE4DA60070A4F3 /* Build configuration list for PBXNativeTarget "MobileRolePlayingAppLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92487131DCE4DA60070A4F3 /* Debug */,
+				E92487141DCE4DA60070A4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E92486F21DCE4DA60070A4F3 /* Project object */;
+}
